@@ -83,7 +83,7 @@ interface PassInterface
     public function addImage(ImageInterface $image);
 
     /**
-     * {@inheritdoc}
+     * @return \Passbook\Pass\ImageInterface[]
      */
     public function getImages();
 
